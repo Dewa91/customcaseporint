@@ -1,0 +1,376 @@
+/* colors: */
+/* porinto blue: #0873BB */
+html{
+  height: 100%;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  background: #e9ebee;
+  letter-spacing: .8px;
+  color: #434343;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+option[disabled]:checked {
+  color: #999;
+}
+
+textarea{
+  resize: none;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+button:disabled, button:disabled:hover {
+  opacity: 0.4;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+a {
+  color: inherit !important;
+}
+
+a:hover {
+   color: inherit !important
+}
+
+/*  */
+h3 {
+  font-size: 18px !important;
+}
+
+h4 {
+  font-size: 15px !important;
+  line-height: 22px;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.no-decoration{
+  text-decoration: none !important;
+}
+
+#main{
+  min-height: 100%;
+}
+
+.wrapper{
+  min-height:100%;
+}
+
+.full-height{
+  min-height: 100%;  
+}
+
+/* override bootstrap */
+.navbar-brand{
+  padding: 10px 0 !important;
+}
+
+.footer-container{
+  padding: 30px 0;
+  background: #1b1b1b;
+  margin-bottom: -170px;
+}
+
+.footer-header{
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: .5px;
+  margin-bottom: 12px;
+  color: #FFFFFF;
+}
+
+.footer-content{
+  color: #999999;
+  font-size: 12px;
+}
+
+.footer-content-big{
+  color: #999999;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+/* end */
+
+.content-container{
+  background: #e9ebee;
+  min-height: calc(100vh);
+}
+
+.page-container{
+  min-height:100%;
+}
+
+/* nanti pindahin ke menu component */
+.menu-header{
+  min-height: 35px;
+  border-radius: 3px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom: solid 1px #eaeaea;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 2px 0px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 1px 2px 0px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 1px 2px 0px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+/* nanti pindahin ke menu component */
+.menu-title{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #0770cd;
+}
+
+.page-content-container{
+  margin-bottom:15px;
+}
+
+.menu-container{
+  min-height: 6%;
+  border-radius: 3px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 2px 0px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 1px 2px 0px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 1px 2px 0px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.menu-nav-container{
+  margin-bottom: 10px;
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.menu-header-back-button{
+  padding:  10px 5px;
+  background-color: #f39c12;
+  border-radius: 5px;
+  color: #FFFFFF;  
+  width:120px;
+  text-align: center;
+  -webkit-box-shadow: 0px 1px 2px 0px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 1px 2px 0px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 1px 2px 0px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.menu-header-next-button{
+  padding: 10px 5px;
+  background-color: #22A7F0;
+  border-radius: 5px;
+  color: #FFFFFF;
+  width:120px;
+  text-align: center;
+  -webkit-box-shadow: 0px 1px 2px 0px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 1px 2px 0px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 1px 2px 0px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.break{
+  height: 15px;
+}
+
+.designer-container{
+  position:relative;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+  border-top: 1px solid #cccccc;
+  -webkit-box-shadow: 0px 1px 2px 0px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 1px 2px 0px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 1px 2px 0px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.app-container{
+  height: 100%;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.separator{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.app-content{
+  height: 100%;
+}
+
+/* layout */
+.layout-navbar{
+  background: #0873BB;
+  color: #fefefe;
+  margin-bottom: 10px !important;
+}
+
+.layout-logo-container{
+  text-align: center;
+  width: 150px;
+  height: 60px;
+  vertical-align: top;
+}
+
+.centered-logo-container{
+  margin-left:auto;
+  margin-right:auto;
+  width: 150px;
+  text-align:center;
+  height: 60px;
+}
+
+.layout-menu-bar {
+  height: 60px;
+}
+
+.layout-menu-bar-icon{
+  color: #fefefe;
+  font-size: 2em;
+  vertical-align: middle;
+  line-height: 60px;
+}
+
+.layout-logo{
+  width: 150px;
+  height: auto;
+}
+
+.product-type-logo{
+  position: absolute;
+  font-weight: 600;
+  font-style: italic;
+  top: 40%;
+}
+
+.layout-content-container{
+  height:100%;
+  padding-bottom: 30px;
+}
+
+.social-media-icon-container{
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+.social-media-icon{
+  display: inline-block;
+  width:20px;
+  height:20px;
+}
+
+.footer-section-container{
+
+}
+
+.announcement{
+  background-color: #fffea1;
+  padding: 12px;
+  color: #333333;
+  font-size: 14px !important;
+  text-align:center;
+  margin-bottom: 10px;
+}
+
+
+/* porinto-typography */
+.porinto-blue-text{
+  color: #0873BB !important;
+}
+
+.black{
+  color: rgb(72, 72, 72) !important;;
+}
+
+.no-margin-bottom{
+  margin-bottom: 0px !important;
+}
+
+.small-padding-top{
+  padding-top: 10px;
+}
+
+.menu-icon-container{
+  vertical-align: middle;
+  font-size:20px;
+  line-height:60px;
+  margin-left: -15px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+/* override bootstrap */
+h3 {
+  line-height: 1.4em;
+}
+
+/* react-slick-override */
+.slick-prev:before,
+.slick-next:before {
+  color: blue;
+}
+
+
+/* fabric canvas specific */
+#canvas-loading{
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  text-align:center;
+  z-index: 10000;
+  background: #000;
+  background:rgba(0,0,0,0.8);
+  color: orange;
+  visibility: hidden;
+}
+
+#canvas-loading > #loading-image{
+  position: relative;
+  top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 100000;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
